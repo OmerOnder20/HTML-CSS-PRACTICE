@@ -47,7 +47,7 @@
     position: absolute;
     width: 100%;
     opacity: 0.4;
-    transition: opacity 3s;
+    transition: margin 3s;
     z-index: 10;
     visibility: hidden;
 }
@@ -65,5 +65,4 @@
 .container:hover #hover-div-top,
 .container:hover #hover-div-bottom {
     visibility: visible;
-    transition: 0.6s;
 }

@@ -1,0 +1,20 @@
+.drawer {
+    height: 60px;
+    width: 240px;
+    background-color: rgb(182, 182, 182);
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-left: -220px;
+    transition: margin 0.75s;
+}
+
+.drawer:hover {
+    margin-left: 0;
+}
+
+p {
+    display: inline-block;
+    vertical-align: middle;
+}
