@@ -1,0 +1,191 @@
+h2,
+h5,
+h6 {
+    margin: 0;
+}
+
+.glass-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.glass-div img {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.glass-box {
+    position: relative;
+    width: 550px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(208, 207, 207, 0.5);
+    border-radius: 15px;
+    z-index: 10;
+    margin: auto;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.header-div {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.header-div h2 {
+    color: white;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.see-all-div {
+    right: 10;
+    display: flex;
+    align-items: center;
+    color: #03a9f4;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.see-all-div:hover {
+    cursor: pointer;
+}
+
+.see-all-div i {
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+.see-all-div h5 {
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.list {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+
+.list .image-div {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 4px solid rgb(177, 176, 176);
+    margin-left: 25px;
+}
+
+.list .image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.list .content-div {
+    padding-left: 15px;
+}
+
+.list .content-div h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.status-div {
+    display: flex;
+    align-items: center;
+}
+
+.status-color-div {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+
+#status-online {
+    background-color: greenyellow;
+}
+
+#status-busy {
+    background-color: orange;
+}
+
+#status-offline {
+    background-color: red;
+}
+
+.status-div h6 {
+    font-size: 14px;
+    color: rgb(184, 183, 183);
+}
+
+.invite-button {
+    border: 1px solid rgb(85, 84, 84);
+    background-color: rgb(63, 61, 61);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.chat-button {
+    border: none;
+    background-color: rgb(34, 162, 62);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.button-div {
+    display: flex;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+}
+
+.invite-button .button-div i {
+    font-size: 10px;
+    padding-right: 13px;
+}
+
+.chat-button .button-div i {
+    font-size: 10px;
+    padding-right: 7px;
+}
+
+.button-div:hover {
+    cursor: pointer;
+}
+
+.divider {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    right: 25px;
+    background-color: grey;
+    height: 2px;
+}
