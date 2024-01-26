@@ -24,6 +24,7 @@ h6 {
 .glass-box {
     position: relative;
     width: 550px;
+    max-height: 450px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(208, 207, 207, 0.5);
@@ -31,12 +32,11 @@ h6 {
     z-index: 10;
     margin: auto;
     top: 100px;
-    display: flex;
-    flex-direction: column;
     justify-content: start;
     align-items: start;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    overflow: auto;
 }
 
 .header-div {
