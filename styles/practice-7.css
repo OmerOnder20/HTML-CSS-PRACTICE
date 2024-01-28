@@ -21,13 +21,19 @@
     cursor: pointer;
 }
 
-.container:hover #rotating-div-top {
+#rotating-div-top {
     transform-origin: top left;
+}
+
+.container:hover #rotating-div-top {
     transform: rotate(45deg);
 }
 
-.container:hover #rotating-div-bottom {
+#rotating-div-bottom {
     transform-origin: bottom left;
+}
+
+.container:hover #rotating-div-bottom {
     transform: rotate(-45deg);
 }
 

@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 80px;
+    width: 480px;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 1;
+}
+
+.container:has(.case-text:hover) {
+    cursor: pointer;
+}
+
+.container:has(.case-text:hover) > .case-text:not(:hover) {
+    opacity: 0.3;
+}
