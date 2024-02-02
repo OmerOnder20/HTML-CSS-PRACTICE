@@ -1,0 +1,25 @@
+body {
+    display: flex;
+}
+
+.save-button {
+    margin: auto;
+    height: 80px;
+    width: 500px;
+    margin-top: 250px;
+    text-align: center;
+    background-size: 160%;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 24px;
+    transition: background-position 1s;
+    cursor: pointer;
+    background-image: linear-gradient(#27b3a8, #27b3a8);
+    background-position: center;
+}
+
+.save-button:hover {
+    background-image: linear-gradient(to right, #27a3b3 30%, #27b3a8 70%);
+    background-position: left;
+}
